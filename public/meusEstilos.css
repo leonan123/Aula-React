@@ -1,0 +1,31 @@
+body,
+button {
+  color: white;
+  font-family: Arial;
+}
+
+body {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(19, 19, 173, 1) 33%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
+
+.container > button {
+  width: 30%;
+  display: block;
+  margin: 10px 2px;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  border: none;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+#num {
+  font-size: 20px;
+  margin: 10px;
+}
